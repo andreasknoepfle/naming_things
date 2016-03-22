@@ -1,0 +1,14 @@
+// Small screen / tablet
+$container-tablet:             720px;
+//** For `$screen-sm-min` and up.
+$container-sm:                 $container-tablet;
+
+// Medium screen / desktop
+$container-desktop:            720px ;
+//** For `$screen-md-min` and up.
+$container-md:                 $container-desktop ;
+
+// Large screen / wide desktop
+$container-large-desktop:      720px;
+//** For `$screen-lg-min` and up.
+$container-lg:                 $container-large-desktop;

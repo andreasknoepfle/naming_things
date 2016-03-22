@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Naming Things!</title>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <body>
+    <%= show_flash(@conn) %></p>
+      <div class="header clearfix">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+
+            <div class="navbar-header">
+             <a class="navbar-brand" href="#">Naming Things</a>
+           </div>
+            <ul class="nav navbar-nav pull-right">
+              <li role="presentation" class="active"><a href="#">Home</a></li>
+            </ul>
+
+
+
+          </div> <!-- /container -->
+        </nav>
+      </div>
+      <main role="main">
+        <%= render @view_module, @view_template, assigns %>
+      </main>
+      <div class="container">
+        <hr>
+        <footer class="footer">
+          <p>&copy; 2016 Andreas Knöpfle</p>
+        </footer>
+      </div>
+
+
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>
