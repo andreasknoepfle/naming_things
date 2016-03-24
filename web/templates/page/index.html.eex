@@ -2,47 +2,76 @@
 
 </div>
 <div class="container">
-  <div class="list-group">
-    <a href="#" class="list-group-item active">
-      <h4 class="list-group-item-heading">Coding</h4>
-      <p class="list-group-item-text">Names for variables, modules, classes and other entities</p>
-    </a>
-    <a href="#" class="list-group-item">
-      <h4 class="list-group-item-heading">Projects</h4>
-      <p class="list-group-item-text">Names for a new project, github-repository or others</p>
-    </a>
+  <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+      <div class="row">
+        <div class="col-xs-1">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-inverse fa-stack-1x">1</i>
+          </span>
+        </div>
+        <div class="col-xs-11">
+          Enter terms<br>
+
+          <small> Enter some terms that describe the thing you want  </small>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="list-group">
+      <a href="#" class="list-group-item ">
+        <h4 class="list-group-item-heading">Coding</h4>
+        <p class="list-group-item-text">Names for variables, modules, classes and other entities</p>
+      </a>
+      <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">Projects</h4>
+        <p class="list-group-item-text">Names for a new project, github-repository or others</p>
+      </a>
+    </div>
   </div>
 </div>
 
 
 <div class="container">
-  <div class="row">
-    <div class="col-xs-2 step-numbers">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-inverse fa-stack-1x">1</i>
-      </span>
-    </div>
-    <div class="col-xs-10">
-      <h3> Enter terms</h3>
-      <p> Enter some terms that describe the thing you want  </p>
-      <form class="form-inline">
-        <div class="form-group">
-          <label class="sr-only" for="termInput">Terms</label>
-           <input type="terms" class="form-control" id="termInput" placeholder="term term">
+  <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+      <div class="row">
+          <div class="col-xs-1">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-inverse fa-stack-1x">2</i>
+            </span>
+          </div>
+          <div class="col-xs-11">
+            Enter terms<br>
+
+            <small> Enter some terms that describe the thing you want  </small>
+          </div>
         </div>
-        <div class="form-group">
-          <label class="sr-only" for="exampleInputEmail2">Language</label>
-          <select class="form-control" name="language">
-            <option>English</option>
-            <option>German</option>
-            <option>French</option>
-            <option>Italian</option>
-            <option>Spanish</option>
-          </select>
-        </div>
-      </form>
+      </div>
+      <div class="panel-body">
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="termInput">Terms</label>
+             <input type="terms" class="form-control" id="termInput" placeholder="term term">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail2">Language</label>
+            <select class="form-control" name="language">
+              <option>English</option>
+              <option>German</option>
+              <option>French</option>
+              <option>Italian</option>
+              <option>Spanish</option>
+            </select>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-  <h3>
+
 </div>
