@@ -2,14 +2,14 @@
 
 </div>
 <div class="container">
-  <div class="panel panel-default">
+  <div class="panel panel-primary">
     <!-- Default panel contents -->
     <div class="panel-heading">
       <div class="row">
         <div class="col-xs-1">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-inverse fa-stack-1x">1</i>
+            <i class="fa fa-stack-1x step-number">1</i>
           </span>
         </div>
         <div class="col-xs-11">
@@ -36,14 +36,14 @@
 
 
 <div class="container">
-  <div class="panel panel-default">
+  <div class="panel panel-primary">
     <!-- Default panel contents -->
     <div class="panel-heading">
       <div class="row">
           <div class="col-xs-1">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-inverse fa-stack-1x">2</i>
+              <i class="fa fa-stack-1x step-number">2</i>
             </span>
           </div>
           <div class="col-xs-11">

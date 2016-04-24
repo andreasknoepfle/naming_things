@@ -52,7 +52,10 @@ exports.config = {
   plugins: {
     sass: {
       options: {
-        includePaths: ["node_modules/bootstrap-sass/assets/stylesheets"] // tell sass-brunch where to look for files to @import
+        includePaths: [
+          "node_modules/bootstrap-sass/assets/stylesheets",
+          "node_modules/bootswatch"
+        ] // tell sass-brunch where to look for files to @import
       },
       precision: 8 // minimum precision required by bootstrap-sass
     },

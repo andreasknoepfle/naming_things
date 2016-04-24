@@ -1,9 +1,24 @@
 
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700,400);
+
+$brand-primary:   #2c3e50;
+$brand-success:   #C0392B;
+
+$navbar-default-link-hover-color: #DCE0E1;
+$navbar-height: 60px;
+
+$body-bg:  #ecf0f1;
+$font-family-sans-serif:  "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+$list-group-hover-bg: #F1C40F;
+
 $icon-font-path: "/fonts/"; /* use fonts from priv/static/fonts/ */
+@import "flatly/variables";
 @import "bootstrap_variables";
 @import "bootstrap"; /* imports node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss */
+@import "flatly/bootswatch";
 
-
-.step-numbers {
-  padding: 1em 4em;
+.step-number {
+  font-family: $font-family-sans-serif;
+  color: $brand-primary
 }
