@@ -1,0 +1,10 @@
+<svg class="logo" color-rendering="optimizeQuality" height="<%= @size %>" shape-rendering="geometricPrecision" version="1.1" width="<%= @size %>" xmlns="http://www.w3.org/2000/svg">
+  <circle class="outline outline--outer" cx="<%= @size/2 %>" cy="<%= @size/2 %>" r="<%= @size/2 - @size/20.0 %>" stroke-width="<%= @size/40.0 %>"></circle>
+  <circle class="outline outline--inner" cx="<%= @size/2 %>" cy="<%= @size/2 %>" r="<%= @size/2 - @size/10.0 %>" stroke-width="<%= @size/40.0 %>"></circle>
+  <circle class="outline hole" cx="<%= @size/2 - @size/10.0 %>" cy="<%= @size/2 - @size/10.0 %>" r="<%= @size/20.0 %>" stroke-width="<%= @size/40.0 %>"></circle>
+  <circle class="outline hole" cx="<%= @size/2 + @size/10.0 %>" cy="<%= @size/2 - @size/10.0 %>" r="<%= @size/20.0 %>" stroke-width="<%= @size/40.0 %>"></circle>
+  <circle class="outline hole" cx="<%= @size/2 - @size/10.0 %>" cy="<%= @size/2 + @size/10.0 %>" r="<%= @size/20.0 %>" stroke-width="<%= @size/40.0 %>"></circle>
+  <circle class="outline hole" cx="<%= @size/2 + @size/10.0 %>" cy="<%= @size/2 + @size/10.0 %>" r="<%= @size/20.0 %>" stroke-width="<%= @size/40.0 %>"></circle>
+  <line class="cross" stroke-width="<%= @size/20.0 %>" x1="<%= @size/2 - @size/10.0 %>" x2="<%= @size/2 + @size/10.0 %>" y1="<%= @size/2 - @size/10.0 %>" y2="<%= @size/2 + @size/10.0 %>"></line>
+  <line class="cross" stroke-width="<%= @size/20.0 %>" x1="<%= @size/2 + @size/10.0 %>" x2="<%= @size/2 - @size/10.0 %>" y1="<%= @size/2 - @size/10.0 %>" y2="<%= @size/2 + @size/10.0 %>"></line>
+</svg>
